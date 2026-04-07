@@ -4,9 +4,9 @@
 
 [![Rust](https://img.shields.io/badge/rust-1.70+-orange.svg)](https://www.rust-lang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/yourusername/nyx-lang)
-[![Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen.svg)](https://github.com/yourusername/nyx-lang)
-[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://github.com/yourusername/nyx-lang/releases)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](#)
+[![Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen.svg)](#)
+[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](#)
 
 > **A next-generation programming language that combines the elegance of modern syntax with the power of advanced compiler technology**
 
@@ -321,10 +321,10 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ### <img src="assets/star.png" alt="Star" width="24"/> **Star the repository** if you find Nyx interesting!
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/nyx-lang.svg?style=social&label=Star)](https://github.com/yourusername/nyx-lang)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/nyx-lang.svg?style=social&label=Fork)](https://github.com/yourusername/nyx-lang/fork)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/nyx-lang.svg)](https://github.com/yourusername/nyx-lang/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/nyx-lang.svg)](https://github.com/yourusername/nyx-lang/pulls)
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/nyx-lang.svg?style=social&label=Star)](#)
+[![GitHub forks](https://img.shields.io/github/forks/yourusername/nyx-lang.svg?style=social&label=Fork)](#)
+[![GitHub issues](https://img.shields.io/github/issues/yourusername/nyx-lang.svg)](#)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/nyx-lang.svg)](#)
 
 ---
 
