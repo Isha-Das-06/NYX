@@ -1,0 +1,15 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ackGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4ECDC4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Trophy shape -->
+  <path d="M12 2 C14 2 16 4 16 6 L16 8 C18 8 20 10 20 12 C20 14 18 16 16 16 L16 18 C16 20 14 22 12 22 C10 22 8 20 8 18 L8 16 C6 16 4 14 4 12 C4 10 6 8 8 8 L8 6 C8 4 10 2 12 2 Z" fill="url(#ackGrad)" stroke="#FF6B6B" stroke-width="1"/>
+  
+  <!-- Trophy details -->
+  <rect x="10" y="8" width="4" height="6" fill="white" opacity="0.8"/>
+  <circle cx="12" cy="11" r="1" fill="#FF6B6B"/>
+</svg>

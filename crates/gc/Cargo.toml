@@ -1,0 +1,10 @@
+[package]
+name = "nyx-gc"
+version = "0.1.0"
+edition = "2021"
+description = "Garbage collector for the Nyx programming language"
+license = "MIT"
+
+[dependencies]
+parking_lot = "0.12"
+indexmap = "2.0"

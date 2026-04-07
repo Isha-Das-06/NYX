@@ -1,0 +1,15 @@
+[package]
+name = "nyx-cli"
+version = "0.1.0"
+edition = "2021"
+description = "Command-line interface for the Nyx programming language"
+license = "MIT"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+anyhow = "1.0"
+nyx-lexer = { path = "../lexer" }
+nyx-parser = { path = "../parser" }
+nyx-ast = { path = "../ast" }
+nyx-type-system = { path = "../type-system" }
+nyx-vm = { path = "../vm" }

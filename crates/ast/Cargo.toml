@@ -1,0 +1,10 @@
+[package]
+name = "nyx-ast"
+version = "0.1.0"
+edition = "2021"
+description = "Abstract syntax tree for the Nyx programming language"
+license = "MIT"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+nyx-lexer = { path = "../lexer" }

@@ -1,0 +1,11 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="featureGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#11998E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38EF7D;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Puzzle pieces -->
+  <path d="M4 4 L10 4 L10 6 C10 7 11 8 12 8 C13 8 14 7 14 6 L14 4 L20 4 L20 10 L18 10 C17 10 16 11 16 12 C16 13 17 14 18 14 L20 14 L20 20 L14 20 L14 18 C14 17 13 16 12 16 C11 16 10 17 10 18 L10 20 L4 20 L4 14 L6 14 C7 14 8 13 8 12 C8 11 7 10 6 10 L4 10 Z" fill="url(#featureGrad)" stroke="#11998E" stroke-width="1"/>
+</svg>

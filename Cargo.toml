@@ -1,0 +1,62 @@
+[package]
+name = "nyx-lang"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A modern, statically typed programming language with advanced features"
+license = "MIT"
+repository = "https://github.com/yourusername/nyx-lang"
+homepage = "https://github.com/yourusername/nyx-lang"
+documentation = "https://docs.rs/nyx-lang"
+keywords = ["compiler", "programming-language", "interpreter", "vm"]
+categories = ["development-tools", "compilers"]
+readme = "README.md"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0"
+anyhow = "1.0"
+indexmap = "2.0"
+petgraph = "0.6"
+mappable-rc = "0.1"
+parking_lot = "0.12"
+
+[dev-dependencies]
+criterion = "0.5"
+pretty_assertions = "1.4"
+
+[[bin]]
+name = "nyx"
+path = "crates/cli/src/main.rs"
+
+[[bench]]
+name = "benchmarks"
+harness = false
+
+[profile.release]
+debug = true
+lto = true
+codegen-units = 1
+
+[workspace]
+members = [
+    ".",
+    "crates/lexer",
+    "crates/parser", 
+    "crates/ast",
+    "crates/type-system",
+    "crates/vm",
+    "crates/gc",
+    "crates/cli"
+]
+
+[workspace.dependencies]
+nyx-lexer = { path = "crates/lexer" }
+nyx-parser = { path = "crates/parser" }
+nyx-ast = { path = "crates/ast" }
+nyx-type-system = { path = "crates/type-system" }
+nyx-vm = { path = "crates/vm" }
+nyx-gc = { path = "crates/gc" }
+nyx-cli = { path = "crates/cli" }

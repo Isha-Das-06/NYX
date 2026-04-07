@@ -1,0 +1,28 @@
+// Function definitions and calls
+fn factorial(n: Int) -> Int {
+    if n <= 1 {
+        1
+    } else {
+        n * factorial(n - 1)
+    }
+}
+
+fn fibonacci(n: Int) -> Int {
+    if n <= 1 {
+        n
+    } else {
+        fibonacci(n - 1) + fibonacci(n - 2)
+    }
+}
+
+fn main() {
+    let fact_5 = factorial(5);
+    let fact_10 = factorial(10);
+    let fib_10 = fibonacci(10);
+    let fib_15 = fibonacci(15);
+    
+    println("factorial(5) = {}", fact_5);
+    println("factorial(10) = {}", fact_10);
+    println("fibonacci(10) = {}", fib_10);
+    println("fibonacci(15) = {}", fib_15);
+}

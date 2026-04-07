@@ -1,0 +1,11 @@
+[package]
+name = "nyx-parser"
+version = "0.1.0"
+edition = "2021"
+description = "Parser for the Nyx programming language"
+license = "MIT"
+
+[dependencies]
+thiserror = "1.0"
+nyx-lexer = { path = "../lexer" }
+nyx-ast = { path = "../ast" }

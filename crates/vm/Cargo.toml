@@ -1,0 +1,13 @@
+[package]
+name = "nyx-vm"
+version = "0.1.0"
+edition = "2021"
+description = "Bytecode virtual machine for the Nyx programming language"
+license = "MIT"
+
+[dependencies]
+thiserror = "1.0"
+indexmap = "2.0"
+parking_lot = "0.12"
+nyx-ast = { path = "../ast" }
+nyx-gc = { path = "../gc" }

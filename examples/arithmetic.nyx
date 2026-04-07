@@ -1,0 +1,16 @@
+// Basic arithmetic operations
+fn main() {
+    let x = 42;
+    let y = 8;
+    let sum = x + y;
+    let product = x * y;
+    let difference = x - y;
+    let quotient = x / y;
+    
+    println("x = {}", x);
+    println("y = {}", y);
+    println("sum = {}", sum);
+    println("product = {}", product);
+    println("difference = {}", difference);
+    println("quotient = {}", quotient);
+}

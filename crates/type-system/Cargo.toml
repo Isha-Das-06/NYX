@@ -1,0 +1,14 @@
+[package]
+name = "nyx-type-system"
+version = "0.1.0"
+edition = "2021"
+description = "Type system and semantic analysis for the Nyx programming language"
+license = "MIT"
+
+[dependencies]
+thiserror = "1.0"
+anyhow = "1.0"
+indexmap = "2.0"
+petgraph = "0.6"
+nyx-ast = { path = "../ast" }
+nyx-lexer = { path = "../lexer" }

@@ -1,0 +1,49 @@
+// Control flow examples
+fn main() {
+    // If-else statements
+    let age = 25;
+    
+    if age >= 18 {
+        println("You are an adult");
+    } else if age >= 13 {
+        println("You are a teenager");
+    } else {
+        println("You are a child");
+    }
+    
+    // While loop
+    let mut i = 0;
+    while i < 5 {
+        println("While loop iteration: {}", i);
+        i = i + 1;
+    }
+    
+    // For loop
+    let numbers = [1, 2, 3, 4, 5];
+    for num in numbers {
+        println("Number: {}", num);
+    }
+    
+    // Match statement
+    let day = "Monday";
+    match day {
+        "Monday" => println("Start of the week"),
+        "Friday" => println("Almost weekend"),
+        "Saturday" | "Sunday" => println("Weekend!"),
+        _ => println("Midweek day"),
+    }
+    
+    // Break and continue
+    let mut j = 0;
+    while j < 10 {
+        if j == 3 {
+            j = j + 1;
+            continue;
+        }
+        if j == 7 {
+            break;
+        }
+        println("j = {}", j);
+        j = j + 1;
+    }
+}

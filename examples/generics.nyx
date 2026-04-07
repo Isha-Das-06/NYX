@@ -1,0 +1,40 @@
+// Generic programming example
+struct Container<T> {
+    value: T
+}
+
+impl<T> Container<T> {
+    fn new(value: T) -> Container<T> {
+        Container { value }
+    }
+    
+    fn get(&self) -> T {
+        self.value
+    }
+    
+    fn set(&mut self, value: T) {
+        self.value = value;
+    }
+}
+
+fn identity<T>(value: T) -> T {
+    value
+}
+
+fn swap<T>(a: T, b: T) -> (T, T) {
+    (b, a)
+}
+
+fn main() {
+    let int_container = Container::new(42);
+    let string_container = Container::new("Hello");
+    
+    println("Int container value: {}", int_container.get());
+    println("String container value: {}", string_container.get());
+    
+    let result = identity(3.14);
+    println("Identity result: {}", result);
+    
+    let (swapped_a, swapped_b) = swap("first", "second");
+    println("Swapped: {}, {}", swapped_a, swapped_b);
+}

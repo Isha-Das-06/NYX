@@ -1,0 +1,29 @@
+// Working with lists and maps
+fn main() {
+    let numbers = [1, 2, 3, 4, 5];
+    let names = ["Alice", "Bob", "Charlie"];
+    let mixed = [1, "hello", 3.14, true];
+    
+    let person = {
+        "name": "Alice",
+        "age": 30,
+        "city": "New York"
+    };
+    
+    let empty_list = [];
+    let empty_map = {};
+    
+    println("Numbers: {}", numbers);
+    println("Names: {}", names);
+    println("Mixed: {}", mixed);
+    println("Person: {}", person);
+    println("Empty list: {}", empty_list);
+    println("Empty map: {}", empty_map);
+    
+    // Accessing elements
+    let first_number = numbers[0];
+    let person_name = person["name"];
+    
+    println("First number: {}", first_number);
+    println("Person name: {}", person_name);
+}
